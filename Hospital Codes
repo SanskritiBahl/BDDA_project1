@@ -59,10 +59,10 @@ CREATE TABLE PatientTreatment (
 -- Insert sample data points
 INSERT INTO Patient (PatientID, PatientName, DOB, Gender, Address, ContactNumber)
 VALUES 
-('P001', 'John Doe', '1985-05-12', 'M', '123 Elm St', '+91-9876543210'),
-('P002', 'Jane Smith', '1990-07-23', 'F', '456 Oak Ave', '+91-9876543211'),
-('P003', 'Alice Johnson', '1975-02-15', 'F', '789 Pine Rd', '+91-9876543212'),
-('P004', 'Bob Brown', '2000-10-10', 'M', '321 Maple Blvd', '+91-9876543213');
+('P001', 'Ashok', '1985-05-12', 'M', '123 Elm St', '+91-9876543210'),
+('P002', 'Manish', '1990-07-23', 'F', '456 Oak Ave', '+91-9876543211'),
+('P003', 'Suresh', '1975-02-15', 'F', '789 Pine Rd', '+91-9876543212'),
+('P004', 'Bobby', '2000-10-10', 'M', '321 Maple Blvd', '+91-9876543213');
 
 INSERT INTO Doctor (DoctorID, DoctorName, Specialty, ContactNumber)
 VALUES 
